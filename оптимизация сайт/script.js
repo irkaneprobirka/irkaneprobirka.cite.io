@@ -1,1 +1,0 @@
-const giro = document.querySelector()
