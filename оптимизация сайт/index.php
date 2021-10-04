@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- голова сайта -->
+	<link rel="stylesheet" href="master.css">
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header> <!-- шапка сайта -->
+			<div class="logo"> <!-- создаю класс ,содержащий логотип и класс с номерами телефонов -->
+				<img src="img\logotip.png" class="logo2-img"></img>
+				<div class="lol"> <!-- создаю класс ,содержащий номер телефона и кнопку для звонка -->
+					<p class="phone">+7 351 111 22 33</p>
+					<p><a href="tel:+7 351 111 22 33"><img class="pbutton" src="img\pngwing.com.png" alt="Телефон"></a></p>
+					<p class="call1">Позвоните мне</p>
+				</div>
+			</div>
+		</header>
+		<ul id="navbar"> <!-- создаю маркированный список -->
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">HTML + CSS</a></li>
+      <li><a href="#">Python</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">C++</a></li>
+    </ul>
+	<div class="o-nas"><!-- заголовок -->
+	<h2>О нас</h2>
+	</div>
+	<div class="oNas"><!-- класс  с преимуществами -->
+	<p> Наша онлайн-школа работает с 2016 года. Наши офисы представлены в таких городах
+как Санкт-Петербург, Москва и Челябинск и многие другие. В среднем у нас занимается более 17000 человек.</p>
+<p> Мы имеем хороших преподавателей, благодаря
+которым, обучение становится простым и максимально доступным. Так же
+вы можете обратиться к нам с любой проблемой. Наши мастера всегда помогут вам,и объяснят непонятную вам тему.</p>
+</div>
+		<h2>Почему именно мы?</h2>
+		  <!-- блок слайдера -->
+  <div class="carousel-wrapper">
+    <span id="item-1"></span>
+    <span id="item-2"></span>
+    <span id="item-3"></span>
+	<span id="item-4"></span>
+    <!-- 1й элемент слайдера -->
+		<div class="carousel-item item-1">
+		  <p>Обучение IT профессиям по максимально доступным ценам.</p>
+		  <a class="arrow arrow-prev" href="#item-4"></a>
+		  <a class="arrow arrow-next" href="#item-2"></a>
+		</div>
+		<!-- 2й элемент слайдера -->
+		<div class="carousel-item item-2">
+		  <p>Наши преподователи - квалифицированые мастера,работающие в лучших фирмах мира.</p>
+		  <a class="arrow arrow-prev" href="#item-1"></a>
+		  <a class="arrow arrow-next" href="#item-3"></a>
+		</div>
+		<!-- 3й элемент слайдера -->
+		<div class="carousel-item item-3">
+		  <p>Более 80 процентов наших учеников находят работу даже во время прохождения курсов.</p>
+		  <a class="arrow arrow-prev" href="#item-2"></a>
+		  <a class="arrow arrow-next" href="#item-4"></a>
+		</div>
+		<!-- 4й элемент слайдера -->
+		<div class="carousel-item item-4">
+		  <p>Первый месяц обучения бесплатно.После покупки все материалы остаются навсегда у вас.</p>
+		  <a class="arrow arrow-prev" href="#item-3"></a>
+		  <a class="arrow arrow-next" href="#item-1"></a>
+		</div>
+  </div>
+		<div class="wrapper"><!-- контейнер с блоками -->
+			<div class="nazv">
+				<h2>Курсы,представленные в нашей онлайн школе.</h2>
+			</div>
+			<div class="content">
+				<div class="ppp">
+			<h1 id="electro">HTML+CSS+JS</h1>
+			</div>
+				<img src="img\web.png" class="content img">
+				<div class="www">
+				<p>Курс содержит три блока для изучения : HTML , CSS , JS.Этого набора полностью хватает, чтобы овладеть профессией веб-разработчика на уровне профессионала.Обучение длиться 12 месяцев,перый месяц бесплатно.</p>
+			</div>
+		</div>
+			<div class="content">
+				<div class="ppp">
+					<h1 id="gyro">Java</h1>
+					</div>
+				<img src="img\java.jpg" class="content img">
+				<div class="www">
+				<p>Пройдя этот курс вы сможете полностью овладеть профессией разработчика мобильных приложений.Обучение длиться 12 месяцев, первый месяц бесплатно.</p>
+			</div>
+		</div>
+			<div class="content">
+				<div class="ppp">
+					<h1 id="segvey">Python</h1>
+				</div>
+				<img src="img/ppp.png" class="content img">
+				<div class="www">
+				<p>Вы всегда хотели работать с большими данными,рассматривали область Python - аналитики?Тогда вы попали по адрессу.В нашей онлай школе вы сможете освоить новую профессию всего за 12 месяцев, также первый месяц обучения бесплатно.</p>
+			</div>
+		</div>
+		<div class="content">
+			<div class="ppp">
+				<h1 id="segvey">C++</h1>
+			</div>
+			<img src="img/cccc.png" class="content img">
+			<div class="www">
+			<p>Для пользователей ,прошедших первый онлайн курс по веб-разработке,советуем приступить к изучению данногокурса,для оптимизации приложения.В нашей онлай школе вы сможете освоить новую область всего за 12 месяцев, также первый месяц обучения бесплатно.</p>
+		</div>
+	</div>
+		</div>
+					<!-- <h2>Наш персонал</h2>
+				<img src="img\personal.png" class="personal img">
+			<div class="personal">
+	 <p> Чтобы работать в наших магазинах нужно знать каждую модель, её
+плюсы и минусы и уметь ездить на ней. Да, это долго, и кто-то скажет,
+что неэффективно. Но так мы гарантированно получаем сотрудника,
+который разбирается в каждом товаре и сможет по-настоящему помочь
+покупателю, а не “впихнуть” ему, что-нибудь подороже.</p>
+				</div>-->
+
+	</body>
+</html>
